@@ -76,11 +76,11 @@ int problem6(int n) {
     return sum*sum - sum_sq;
 }
 
-bool is_prime(int num) {
-    if (num <= 1) return false;
+int is_prime(int num) {
+    if (num <= 1) return 0;
     for (int i = 2; i*i <= num; i++) 
-        if (num%i == 0) return false;
-    return true;
+        if (num%i == 0) return 0;
+    return 1;
 }
 
 // Problem 7: 第n个质数
@@ -133,18 +133,4 @@ long long problem10(int n) {
     }
     free(sieve);
     return sum;
-}
-
-int main() {
-    printf("Problem 1: %d\n", problem1(1000));       // 233168
-    printf("Problem 2: %d\n", problem2(4000000));    // 4613732
-    printf("Problem 3: %lld\n", problem3(13195));    // 29
-    printf("Problem 4: %d\n", problem4(2));          // 9009
-    printf("Problem 5: %d\n", problem5(20));         // 232792560
-    printf("Problem 6: %d\n", problem6(100));        // 25164150
-    printf("Problem 7: %d\n", problem7(10001));      // 104743
-    printf("Problem 8: %d\n", problem8(13));         // 2040733440
-    printf("Problem 9: %d\n", problem9(1000));       // 31875000
-    printf("Problem 10: %lld\n", problem10(2000000)); // 142913828922
-    return 0;
 }
