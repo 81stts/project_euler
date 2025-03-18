@@ -3,6 +3,7 @@
 #include "21-30.c"
 #include "31-40.c"
 #include "41-50.c"
+#include "51-60.c"
 
 int main() {
     printf("Problem 1: %d\n", problem1(1000));       // 233168
@@ -91,5 +92,15 @@ int main() {
     printf("Problem 48: %lld\n", problem48(1000));       // 输出：9110846700
     printf("Problem 49: %lld\n", problem49());           // 输出：296962999629
     printf("Problem 50: %d\n", problem50(1000000));      // 输出：997651
+    printf("Problem 51: %d\n", problem51());              // 121313
+    printf("Problem 52: %d\n", problem52());              // 142857
+    printf("Problem 53: %d\n", problem53(1000000));       // 4075
+    printf("Problem 54: %d\n", problem54("poker.txt"));   // 30
+    printf("Problem 55: %d\n", problem55(10000));         // 249
+    printf("Problem 56: %d\n", problem56(100));           // 972
+    printf("Problem 57: %d\n", problem57(1000));          // 153
+    printf("Problem 58: %d\n", problem58(0.1));           // 26241
+    printf("Problem 59: %d\n", problem59("cipher.txt"));  // 2038
+    printf("Problem 60: %d\n", problem60());              // 26033
     return 0;
 }
