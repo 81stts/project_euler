@@ -2,6 +2,7 @@
 #include "11-20.c"
 #include "21-30.c"
 #include "31-40.c"
+#include "41-50.c"
 
 int main() {
     printf("Problem 1: %d\n", problem1(1000));       // 233168
@@ -70,5 +71,25 @@ int main() {
     printf("Problem 28: %d\n", problem28(1001));       // 669171001
     printf("Problem 29: %d\n", problem29(100));        // 9183
     printf("Problem 30: %d\n", problem30(5));          // 443839
+    printf("Problem 31: %d\n", problem31(200));       // 73682
+    printf("Problem 32: %d\n", problem32());          // 45228
+    printf("Problem 33: %d\n", problem33());          // 100
+    printf("Problem 34: %d\n", problem34());          // 40730
+    printf("Problem 35: %d\n", problem35(1000000));   // 55
+    printf("Problem 36: %d\n", problem36(1000000));   // 872187
+    printf("Problem 37: %d\n", problem37(11));        // 748317
+    printf("Problem 38: %d\n", problem38());          // 932718654
+    printf("Problem 39: %d\n", problem39(1000));      // 840
+    printf("Problem 40: %d\n", problem40());          // 210
+    printf("Problem 41: %d\n", problem41(7));            // 输出：7652413
+    printf("Problem 42: %d\n", problem42("words.txt"));  // 输出：3
+    printf("Problem 43: %lld\n", problem43());           // 输出：16695334890
+    printf("Problem 44: %d\n", problem44());             // 输出：5482660
+    printf("Problem 45: %d\n", problem45());             // 输出：1533776805
+    printf("Problem 46: %d\n", problem46());             // 输出：5777
+    printf("Problem 47: %d\n", problem47(4));            // 输出：134043
+    printf("Problem 48: %lld\n", problem48(1000));       // 输出：9110846700
+    printf("Problem 49: %lld\n", problem49());           // 输出：296962999629
+    printf("Problem 50: %d\n", problem50(1000000));      // 输出：997651
     return 0;
 }
